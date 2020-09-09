@@ -1,0 +1,35 @@
+.d-flex{
+    flex-wrap: wrap;
+}
+span{
+    font-family: Mistral;
+    font-size: 20px;
+}
+.heading{
+  font-family: Bradley Hand ITC;
+  font-size: 20px ;
+  font-weight: bolder;
+  color: orangered;
+}
+.fa:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px grey;
+}
+.fa-facebook-square{
+    color: #1877f2;
+}
+.fa-twitter-square{
+    color: #1da1f2;
+}
+.fa-linkedin-square{
+    color: #0092bc
+}
+.fa-instagram{
+    color: #cd2f8a;
+}
+
+@media screen and (max-width:1024px){
+    #sid{
+        color: orchid;
+    }
+}

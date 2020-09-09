@@ -1,0 +1,14 @@
+<div class="m-0 pb-4">
+    <div class="d-flex justify-content-center mx-auto my-5">
+        <div class="mr-sm-5">
+            <span>Resume</span>
+        </div>
+        <div class="ml-5 mt-4">
+            <button class="btn btn-success" (click)="download()"> Download</button>
+        </div>
+    </div>
+    <div class="pdf">
+        <pdf-viewer [src]="pdfSrc" [render-text]="true"></pdf-viewer>
+    </div>
+
+</div>

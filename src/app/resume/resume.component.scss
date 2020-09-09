@@ -1,0 +1,36 @@
+.m-0{
+    background-image: linear-gradient(to right,rgba(230, 218, 206, 1) 0%, rgba(230, 218, 206, 1) 50%,rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%);
+}
+span:before{
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    background-color: orangered;
+}
+span{
+    font-family: Mistral;
+    font-size: 50px;
+}
+.btn{
+    box-shadow: 5px 5px 5px grey;
+}
+.pdf{
+    display: block;
+    box-shadow: 10px 10px 10px grey;
+    width: 55%;
+    text-align: center;
+    margin: auto;
+}
+@media screen and (max-width:1024px){
+    .pdf{
+        width: 90%;
+    }
+}
+@media screen and (max-width:420px){
+    span:before{
+        margin-right: 10px;
+    }
+}
